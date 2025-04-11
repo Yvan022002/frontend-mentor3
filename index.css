@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 23%, 69%);
+    height: 100vh;
+    font-family:"Manrope", sans-serif;
+}
+.card{
+    border-radius: 10px;
+    width: 650px;
+    height: 220px;
+    background-color:hsl(210, 46%, 95%) ;
+    display: flex;
+}
+.card .left{
+    width: 40%;
+}
+.card .left img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card .right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-inner{
+    width: auto;
+    right: auto;
+    padding: 6%;
+}
+.right-inner p{
+    font-size: 13px;
+}
+.right .right-inner .right-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profil{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#date{
+    opacity:0.5;
+}
+.profil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.share-link{
+    width: 30px;
+    height: 30px;
+    background-color: hsl(212, 23%, 69%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
