@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(212, 23%, 69%);
+    background-color: hsl(212, 41%, 92%);
     height: 100vh;
     font-family:"Manrope", sans-serif;
 }
@@ -12,7 +12,7 @@ body{
     border-radius: 10px;
     width: 650px;
     height: 220px;
-    background-color:hsl(210, 46%, 95%) ;
+    background-color:hsl(0, 0%, 100%) ;
     display: flex;
 }
 .card .left{
@@ -37,7 +37,8 @@ body{
     padding: 6%;
 }
 .right-inner p{
-    font-size: 13px;
+    font-size: 10px;
+    opacity: 0.5;
 }
 .right .right-inner .right-flex{
     display: flex;
@@ -51,20 +52,55 @@ body{
     display: flex;
     align-items: center;
 }
+.profil img{
+    margin-right: 7px;
+}
+.profil-noms p{
+margin: 0;
+}
+#nom{
+    font-weight: bold;
+    opacity: 0.8;
+}
 #date{
     opacity:0.5;
 }
 .profil img{
     width: 30px;
     height: 30px;
-    border-radius: 100%;
+    border-radius: 50%;
+}
+.share-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .share-link{
-    width: 30px;
-    height: 30px;
-    background-color: hsl(212, 23%, 69%);
-    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: hsl(212, 41%, 92%);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.share-link img{
+    margin: 0;
+    width: 10px;
+}
+.share-link-items{
+    display: none;
+    align-items: center;
+    padding: 0px 25px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: 54vh;
+}
+.share-link-items img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
 }
